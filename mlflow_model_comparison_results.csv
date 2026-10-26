@@ -1,0 +1,6 @@
+Run ID,Run Name,Optimizer,Learning Rate,Batch Size,Epochs,Dropout,BatchNorm,Accuracy,Precision,Recall,F1-Score,Loss,Acc Gain (pp),F1 Gain (pp),Loss Reduction (%)
+320245c51dda4912bbd5faa2e88fc47a,02_RMSprop,RMSprop,0.001,32,40,0.1,False,0.7444,0.7412,0.7444,0.7423,0.5493,26.22,26.14,45.86
+3edd5720b8fb4497a8d7c0b229735f60,01_SGD_Nesterov_Momentum,SGD_Nesterov,0.01,32,40,0.1,False,0.74,0.7394,0.74,0.7394,0.5851,25.78,25.85,42.33
+5058b84b68e4486e91404f749fe838e3,04_AdamW_Optimized,AdamW,0.001,32,40,0.15,True,0.74,0.7364,0.74,0.7376,0.57,25.78,25.67,43.81
+297450b8a86940fc87c483843094ac1a,03_Adam,Adam,0.001,32,40,0.1,False,0.7333,0.7297,0.7333,0.7307,0.5587,25.11,24.98,44.93
+2d2deff44c6141589aa823c5280943af,00_Baseline_Vanilla_SGD,Vanilla_SGD,0.001,64,30,0.0,False,0.4822,0.5101,0.4822,0.4809,1.0145,0.0,0.0,0.0
